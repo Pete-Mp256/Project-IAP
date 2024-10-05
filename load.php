@@ -2,7 +2,7 @@
 session_start();
 require "includes/constants.php";
 require "includes/dbConnection.php";
-require "lang/en.php";
+
 
 // Class Auto Load
 function classAutoLoad($classname){

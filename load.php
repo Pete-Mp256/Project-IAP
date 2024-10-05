@@ -24,6 +24,8 @@ function classAutoLoad($classname){
 
     $ObjLayouts = new layouts();
     $ObjMenus = new menus();
-    $ObjHeadings = new headings();
+    $ObjHeading = new heading();
+    $Objcontents = new contents();
+    $Objuser_forms = new user_forms();
     $conn = new dbConnection(DBTYPE, HOSTNAME, DBPORT, HOSTUSER, HOSTPASS, DBNAME);
 
